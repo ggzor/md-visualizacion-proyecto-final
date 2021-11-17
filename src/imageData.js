@@ -50,7 +50,7 @@ export async function* loadImages() {
     loadedImages.map(img => img.imageData)
   )
 
-  loadedImages.push({
+  loadedImages.splice(0, 0, {
     name: 'Full',
     imageData: null,
     positions: fullPixels.map(({ r, g, b }) => ({ x: r, y: g, z: b })),
