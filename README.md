@@ -5,3 +5,9 @@ DBSCAN utilizando un algoritmo genético.
 
 
 > Demo: https://md-visualizacion.netlify.app/
+
+## Resultados
+
+| ![Pixel data](./docs/full.png) | ![Clústers](./docs//full-clusters.png) |
+| :-: | :-: |
+| Original | Clústers |
